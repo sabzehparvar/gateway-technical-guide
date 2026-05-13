@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   padding: 20px 12px;
   margin: 0;
-  font-family: 'IranYekan';
+  font-family: 'IranYekan', system-ui, 'Segoe UI', Tahoma, sans-serif;
 }
 
 .guide-wrapper {
@@ -61,8 +61,20 @@ body {
   margin: 12px 0;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
   .guide-wrapper {
     margin-top: 5rem;
+  }
+  .guide-title {
+    font-size: 20px;
+  }
+
+  .guide-item {
+    font-size: 16px;
+  }
+
+  .guide-icon {
+    width: 26px;
+    height: 26px;
   }
 }
