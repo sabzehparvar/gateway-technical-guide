@@ -1,0 +1,68 @@
+body {
+  background-color: #f7f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px 12px;
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.guide-wrapper {
+  width: 100%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.guide-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #403e42;
+  text-align: center;
+  margin: 0;
+}
+
+.guide-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #403e42;
+  transition: background 0.2s;
+}
+
+.guide-item:hover {
+  background: #f0f0f5;
+}
+
+.guide-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guide-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.guide-text {
+  flex: 1;
+  margin: 12px 0;
+}
+
+@media (min-width: 500px) {
+  .guide-wrapper {
+    margin-top: 5rem;
+  }
+}
