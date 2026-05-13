@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   padding: 20px 12px;
   margin: 0;
-  font-family: system-ui, 'Segoe UI', Tahoma, sans-serif;
+  font-family: 'IranYekan';
 }
 
 .guide-wrapper {
@@ -22,7 +22,7 @@ body {
   font-weight: 500;
   color: #403e42;
   text-align: center;
-  margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 .guide-item {
@@ -31,7 +31,7 @@ body {
   gap: 10px;
   background: #ffffff;
   border-radius: 15px;
-  padding: 0 12px;
+  padding: 5px 12px;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
