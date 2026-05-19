@@ -18,7 +18,7 @@ body {
 }
 
 .guide-title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: #403e42;
   text-align: center;
@@ -33,7 +33,7 @@ body {
   border-radius: 15px;
   padding: 5px 12px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   color: #403e42;
   transition: background 0.2s;
@@ -58,23 +58,4 @@ body {
 
 .guide-text {
   flex: 1;
-  margin: 12px 0;
-}
-
-@media (min-width: 600px) {
-  .guide-wrapper {
-    margin-top: 5rem;
-  }
-  .guide-title {
-    font-size: 20px;
-  }
-
-  .guide-item {
-    font-size: 16px;
-  }
-
-  .guide-icon {
-    width: 26px;
-    height: 26px;
-  }
 }
