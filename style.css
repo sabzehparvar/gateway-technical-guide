@@ -2,6 +2,7 @@ body {
   background-color: #f7f7fc;
   margin: 0;
   font-family: 'IranYekan', system-ui, 'Segoe UI', Tahoma, sans-serif;
+  padding: 0 14px;
 }
 
 .guide-container {
